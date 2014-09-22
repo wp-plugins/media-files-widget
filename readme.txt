@@ -1,4 +1,4 @@
-=== List mediafiles widget ===
+=== Media files list widget ===
 Contributors: kvu022
 Tags: widget, file manager, media files, media, list
 Requires at least: 2.8
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WordPress widget plugin that lists media files
 
 == Description ==
-*List mediafiles widget* is a WordPress plugin that lists media files in a widget area.
+*Media files list widget* is a WordPress plugin that lists media files in a widget area.
 The number of files that should be shown can be specified, and it is possible to change the way files are sorted.
 Files can also be excluded from the list.
 
