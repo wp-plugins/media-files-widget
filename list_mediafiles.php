@@ -21,7 +21,7 @@ class List_MediaFiles_Widget extends WP_Widget {
 		// widget actual processes
 		parent::__construct(
 			'list_mediafiles_widget', // Base ID
-			__('List Mediafiles', 'text_domain'), // Name
+			__('Media files list', 'text_domain'), // Name
 			array( 'description' => __( 'A Widget to display Mediafiles', 'text_domain' ), ) // Args
 		);
 	}
