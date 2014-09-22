@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: List mediafiles widget
+ Plugin Name: Media files list widget
 Plugin URI: https://github.com/klasske/list_mediafiles_widget
 Description: WordPress widget plugin that lists recent media files in a sidebar
 Version: 1.0
