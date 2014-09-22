@@ -67,6 +67,14 @@ class List_MediaFiles_Widget extends WP_Widget {
 		echo 'padding: 5px;'; 
 		echo '} .list_mediafiles_box img{';
 		echo 'max-width:100px;';
+		echo 'display:block;';
+		echo 'margin:0 auto;';
+		echo '}  .list_mediafiles_box h4{';
+		echo 'text-align:center;';
+		echo '}  .list_mediafiles_box span{';
+		echo 'text-align:center;';
+		echo 'margin:3px auto;';
+		echo 'word-break:break-word;';
 		echo '} </style>';
 		
 		$args = array(
@@ -98,7 +106,7 @@ class List_MediaFiles_Widget extends WP_Widget {
 		        				<img src="' . wp_mime_type_icon($post->post_mime_type) . '">
 		        						</a>';
 		        }
-		        echo '<span class="aligncenter" style="word-break:break-word;">';
+		        echo '<span class="aligncenter">';
 		        the_excerpt();
 		        echo '</span>';
 		    	echo '</div>';
